@@ -20,9 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Merhaba {}, ben {}! beni nasıl kullanacağın hakkında sorun varsa /help de... 
 
-ben grup yönetim botuyum yapımcıma ulaşmak için  [buraya dokun](tg://user?id={}).
-
-Güncellemelerim bu kanalda @daqomods paylaşılacak.
+ben grup yönetim botuyum yapımcıma ulaşmak için  [buraya dokun](http://instagram.com/dasqinnagiyev).
 
 
 Daha fazla komut için dokunun /help
