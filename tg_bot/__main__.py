@@ -34,9 +34,9 @@ HELP_STRINGS = """
 Merhaba! benim adım *{}*.
 
 *Ana* komutlar:
- - /start: Botu başlat...
- - /help: Yardım....
- - /donate: Bağış hakkında daha fazla bilgi edin!
+ - /start: Botu başlatır 
+ - /help: Yardım için
+ -  Bu bot Namı Diğer Luci Tarafından Yapılmıştır.
  - /settings:
    - PM'de: Hangi AYARLARI ayarladığınızı bulmak için....
    - grup içinde:
@@ -227,7 +227,7 @@ def get_help(bot: Bot, update: Update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
+        update.effective_message.reply_text("Benim ile iletişime geçip Diğer Komutlara bak.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",
                                                                        url="t.me/{}?start=help".format(
